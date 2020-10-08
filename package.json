@@ -8,10 +8,17 @@
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marcos Romero",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/marcosromero_t/asd/src/master/"
+  }
 }
