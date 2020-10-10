@@ -1,11 +1,28 @@
+.jumbotron {
+	color: black;
+	background-color: #66b3ff;
+}
 .color {
-		color: black;
-		background-color: #66b3ff;
-	}
-.myFooter {
-		font-family: 'Sansita Swashed', cursive;
-		font-size: 110%;
-	}
+	color: black;
+	background-color: #66b3ff;
+}
+.myFont {
+	font-family: 'Sansita Swashed', cursive;
+}
 .myLink {
-		color: black;
+	color: black;
+}
+.card-hotel {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	flex: 1 150px;
+	padding: 2px 5px 2px 5px;
+}
+.btn-reserva {
+	width: 100%;
+}
+.footer {
+	padding: 10px 0px 0px 10px;
+	color: black;
+	background-color: #66b3ff;
 }

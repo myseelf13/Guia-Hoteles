@@ -13,61 +13,122 @@
     <title>Main Page</title>
   </head>
   <body>
-    <div class="color jumbotron display-4">Destinos:</div>
+    <div class="jumbotron display-4 myFont">Destinos:</div>
+    <!--CONTENINER BODY-->
     <div class="container">
+      <!--CIUDADES CON GRID-->
       <div class="row">
+        <!--1-->
     		<div class="col-md-4">
           <h3 class="text-center">Buenos Aires</h3>
           <img class="img-fluid" src="https://estaticos.elperiodico.com/resources/jpg/9/8/buenos-aires-1562985279289.jpg" alt="Buenos Aires Pic">            
           <p>Buenos Aires es la gran capital cosmopolita de Argentina. Su centro es la Plaza de Mayo, rodeada de imponentes edificios del siglo XIX, incluida la Casa Rosada, el icónico palacio presidencial que tiene varios balcones. Entre otras atracciones importantes, se incluyen el Teatro Colón, un lujoso teatro de ópera de 1908 con cerca de 2,500 asientos, y el moderno museo MALBA, que exhibe arte latinoamericano.</p>
         </div>
+        <!--2-->
     		<div class="col-md-4">
           <h3 class="text-center">Madrid</h3>
           <img class="img-fluid" src="https://www.fundacionemprendedores.com/elmentor/wp-content/uploads/2018/07/madrid-abierta-696x462.jpg" alt="Madrid Pic">
           <p>Madrid es la capital central de España con elegantes bulevares y amplios parques muy cuidados, como el Buen Retiro. Es famosa por sus ricas colecciones de arte europeo, con obras de Goya, Velázquez y otros maestros españoles en el Museo del Prado. El corazón del antiguo Madrid de los Habsburgo es la Plaza Mayor bordeada de pórticos y cerca se encuentra el Palacio Real y la Armería, que exhiben arsenales históricos.</p>
         </div>
+        <!--3-->
     		<div class="col-md-4">
           <h3 class="text-center">Paris</h3>
           <img class="img-fluid" src="https://www.turismoviajar.com/wp-content/uploads/2019/09/paris-2020.jpg" alt="Paris Pic">
           <p>París, la capital de Francia, es una importante ciudad europea y un centro mundial del arte, la moda, la gastronomía y la cultura. Su paisaje urbano del siglo XIX está entrecruzado por amplios bulevares y el río Sena. Aparte de estos hitos, como la Torre Eiffel y la catedral gótica de Notre Dame del siglo XII, la ciudad es famosa por su cultura del café y las tiendas de moda de diseñador a lo largo de la calle Rue du Faubourg Saint-Honoré.</p>
         </div>
     	</div>
-      <hr class="color">
+      <!--FIN CIUDADES CON GRID-->
+      <!--CONTAINER HOTELES TOTAL-->
       <div class="container text-center">
-        <div class="row">
-          <div class="col-md"><h4><i>Lista de Hoteles:</i></h4></div>
+        <!--TITULO HOTELES FLEX-->
+        <div class="d-flex">
+          <div class="col"><h4><i>Lista de Hoteles:</i></h4></div>
         </div>
-        <br>
-        <br>
-        <div class="row">
-          <div class="col-md-4"><strong>Hilton</strong>, <small>Buenos Aires</small></div>
-          <div class="col-md-4">Ubicado en el prestigioso Puerto Madero, Hilton Buenos Aires se encuentra a pocos pasos de muchas atracciones, como el distrito financiero, e importantes empresas, atracciones turísticas, tiendas y restaurantes, con fácil acceso a los aeropuertos locales e internacionaless</div>
-          <div class="col-md-4"><button type="button" class="btn btn-info">+Info</button></div>
+        <hr>
+        <!--HOTELES FLEX-->
+        <div class="d-flex flex-wrap">
+          <!--1-->
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h4><strong>Hilton</strong>, <small>Buenos Aires</small></h4>
+              <p>Ubicado en el prestigioso Puerto Madero, Hilton Buenos Aires se encuentra a pocos pasos de muchas atracciones, como el distrito financiero, e importantes empresas, atracciones turísticas, tiendas y restaurantes, con fácil acceso a los aeropuertos locales e internacionaless</p>
+            </div>
+            <div>
+              <button class="btn color btn-reserva">+Info</button>
+            </div>
+          </div>
+          <!--2-->
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h4><strong>Le Pavillon</strong>, <small>Paris</small></h4>
+              <p>Un verdadero remanso de paz en París , anteriormente un convento, el Hotel Le Pavillon le da la bienvenida con sus 15 habitaciones personalizadas, en una zona tranquila, al final de un patio con jardín. Único en París, ofrecemos 3 habitaciones especialmente equipadas para personas electrosensibles.</p>
+            </div>
+            <div>
+              <button class="btn color btn-reserva">+Info</button>
+            </div>
+          </div>
+          <!--3-->
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h4><strong>Amélie</strong>, <small>Paris</small></h4>
+              <p>Art'hôtel gracias a su decoración original y atípica, le da la bienvenida con sus 16 exóticas habitaciones para una estancia con encanto en el corazón de París. El Hotel Amélie tiene una ubicación ideal cerca de la Torre Eiffel, el Sena, el Musée d'Orsay, el Musée Rodin, los Inválidos, los Campos Elíseos y el Grand Palais.</p>
+            </div>
+            <div>
+              <button class="btn color btn-reserva">+Info</button>
+            </div>
+          </div>
+          <!--4-->
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h4><strong>Malar</strong>, <small>Paris</small></h4>
+              <p>El Hotel Malar, esta tradicional casa parisina llena de encanto, originalidad y modernidad, está idealmente ubicado en el centro de París, cerca de la Torre Eiffel, el Sena, los Campos Elíseos, el Grand Palais, los Inválidos, el Museo de Orsay. El Hotel Malar, un verdadero remanso de paz construido alrededor de un patio jardín verde y florecido</p>
+            </div>
+            <div>
+              <button class="btn color btn-reserva">+Info</button>
+            </div>
+          </div>
+          <!--5-->
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h4><strong>Malar</strong>, <small>Paris</small></h4>
+              <p>El Hotel Malar, esta tradicional casa parisina llena de encanto, originalidad y modernidad, está idealmente ubicado en el centro de París, cerca de la Torre Eiffel, el Sena, los Campos Elíseos, el Grand Palais, los Inválidos, el Museo de Orsay. El Hotel Malar, un verdadero remanso de paz construido alrededor de un patio jardín verde y florecido</p>
+            </div>
+            <div>
+              <button class="btn color btn-reserva">+Info</button>
+            </div>
+          </div>
         </div>
-        <br>
-        <div class="row">
-          <div class="col-md-4"><strong>Le Pavillon</strong>, <small>Paris</small></div>
-          <div class="col-md-4">Un verdadero remanso de paz en París , anteriormente un convento, el Hotel Le Pavillon le da la bienvenida con sus 15 habitaciones personalizadas, en una zona tranquila, al final de un patio con jardín. Único en París, ofrecemos 3 habitaciones especialmente equipadas para personas electrosensibles.</div>
-          <div class="col-md-4"><button type="button" class="btn btn-info" id="#">+Info</button></div>
+        <!--FIN HOTELES FLEX-->
+      </div>
+      <hr>
+    </div>
+    <!--FIN CONTENINER BODY-->
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="d-flex flex-wrap">
+        <div class="col-md-4 d-flex flex-column align-items-start">
+          <a class="myLink" href="https://www.google.com.ar" target="__blank">Google</a>
+          <a class="myLink" href="https://www.facebook.com" target="__blank">Facebook</a>
+          <a class="myLink" href="https://www.instagram.com" target="__blank">Instagram</a>
+          <a class="myLink" href="https://www.twitter.com" target="__blank">Twitter</a>
         </div>
-        <br>
-        <div class="row">
-          <div class="col-md-4"><strong>Amélie</strong>, <small>Paris</small></div>
-          <div class="col-md-4">Art'hôtel gracias a su decoración original y atípica, le da la bienvenida con sus 16 exóticas habitaciones para una estancia con encanto en el corazón de París. El Hotel Amélie tiene una ubicación ideal cerca de la Torre Eiffel, el Sena, el Musée d'Orsay, el Musée Rodin, los Inválidos, los Campos Elíseos y el Grand Palais.</div>
-          <div class="col-md-4"><button type="button" class="btn btn-info" id="#">+Info</button></div>
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <address>
+            <p><strong>Calle Falsa 1234</strong>
+            <br>Almagro - CABA - Argentina
+            <br>+54 9 11 1234 5678
+            <br>contacto@empresa.com</p>
+          </address>
         </div>
-        <br>
-        <div class="row">
-          <div class="col-md-4"><strong>Malar</strong>, <small>Paris</small></div>
-          <div class="col-md-4">El Hotel Malar, esta tradicional casa parisina llena de encanto, originalidad y modernidad, está idealmente ubicado en el centro de París, cerca de la Torre Eiffel, el Sena, los Campos Elíseos, el Grand Palais, los Inválidos, el Museo de Orsay. El Hotel Malar, un verdadero remanso de paz construido alrededor de un patio jardín verde y florecido</div>
-          <div class="col-md-4"><button type="button" class="btn btn-info" id="#">+Info</button></div>
+        <div class="col-md-4 d-flex flex-column align-items-end">
+          <a class="myLink" href="https://www.google.com" target="__blank">Contacto</a>
+          <a class="myLink" href="https://www.google.com" target="__blank">Nosotros</a>
+          <a class="myLink" href="https://www.google.com" target="__blank">Precios</a>
+          <a class="myLink" href="https://www.google.com" target="__blank">Terminos y Condiciones</a>
         </div>
       </div>
-      <hr class="color">
-    </div>
-    <footer class="myFooter text-center">
-      by: <a class="myLink" href="https://twitter.com/MarcosRomero_T" target="__blank"><i>Marcos Romero</i></a>
     </footer>
+    <!--FIN FOOTER-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -75,3 +136,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
+
+<!-- by: <a class="myLink" href="https://twitter.com/MarcosRomero_T" target="__blank"><i>Marcos Romero</i></a> -->
